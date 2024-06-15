@@ -5,19 +5,33 @@ description: 'Eleventy Excellent is inspired bythe companion website of Andy Bel
 layout: page
 ---
 
-This starter uses modern CSS, fluid type & space, flexible Layouts and Progressive Enhancement, wrapped in a basic template.
+## Fay Andrews-Hodgson
 
-It is built around the CSS boilerplate by Andy Bell and inspired by Andy's talk **'Be the browser’s mentor, not its micromanager'**.
+Fay has an academic background in Organisational Psychology (MSc) and has spent 17 years practising Organisational Development (OD) within mainly public sector organisations. This has involved supporting individuals, teams and whole organisations in their learning, development and Leadership.  She spent 10 years as an OD practitioner in the NHS and most recently spent 4 years as a Senior OD practitioner in the Home Office, focussing on the leadership development of the top 400 Civil Servants, including board development.
 
-If you want to know exactly how it all works, [read this article on piccalil.li](https://piccalil.li/blog/a-css-project-boilerplate/).
+She is also a Coach and Team Coach and started her coach training in 2006 using coaching as a core part of her roles ever since.  She has trained in Co-Active Coaching, Coaching supervision, Organisational Relationships Systems Coaching and Team Coaching.
 
-The aim is to spread the idea and use of this _excellent_ workflow. To work with it efficiently you should be familiar with [cube.fyi](https://cube.fyi/), [utopia.fyi](https://utopia.fyi/) and [every-layout.dev](https://every-layout.dev/).
+She has an interest in dynamic systems, our complex world and the interconnectivity of things.
 
-- buildexcellentwebsit.es
-- Remix the original: https://glitch.com/edit/#!/remix/build-excellent-websites
-- Study the [original CSS boilerplate](https://github.com/Set-Creative-Studio/cube-boilerplate/tree/main)
+She is an enthusiastic thinker, learning from a multitude of topics from psychology, philosophy, sociology and anthropology to quantum physics, economics and geo-politics. In her spare time is a keen maker, artist and potter.
 
-## Watch the talk
+Fay also has her own business [Insight Space](https://insightspace.co.uk), offering leadership coaching, team coaching and Organisational Development.
 
-<div><custom-youtube @slug="JqnMI1AXl6w" @label="Andy Bell – Be the browser’s mentor, not its micromanager"> </custom-youtube></div>
+## Marie Dove
 
+Marie is Nature Based-Coach
+
+<article class="full  section" style="--spot-color: var(--color-primary-highlight)">
+  {% svg "divider/waves", null, "seperator" %}
+
+  <section class="feature section__inner wrapper">
+    <h2>Find out more</h2>
+      <p>
+        <button class="button"><a href='/contact'>Get in touch</a></button>
+      </p>
+
+  </section>
+
+{% svg "divider/waves", null, "seperator" %}
+
+</article>

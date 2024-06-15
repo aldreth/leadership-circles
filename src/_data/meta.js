@@ -1,7 +1,7 @@
 export const url = process.env.URL || 'http://localhost:8080';
-export const siteName = 'Eleventy Excellent';
-export const siteDescription = 'Eleventy starter for building modern, resilient websites';
-export const siteType = 'Person'; // schema
+export const siteName = 'Leadership Circles';
+export const siteDescription = '';
+export const siteType = 'Company'; // schema
 export const locale = 'en_EN';
 export const lang = 'en';
 export const skipContent = 'Skip to content';
@@ -56,7 +56,7 @@ export const navigation = {
   ariaTop: 'Main',
   ariaBottom: 'Complementary',
   ariaPlatforms: 'Platforms',
-  drawerNav: false
+  drawerNav: true
 };
 export const themeSwitch = {
   title: 'Theme',
