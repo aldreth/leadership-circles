@@ -7,6 +7,7 @@ layout: page
 
 Send us a message:
 
+<!-- /TODO: add action="/pages/success" to go to a custom page after message submission -->
 <form name="contact" method="POST" data-netlify="true">
     <label for="name">Name: </label> 
     <input type="text" name="name" />
