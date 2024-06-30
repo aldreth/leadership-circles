@@ -7,17 +7,17 @@ export default {
     {
       text: 'Contact',
       url: '/contact/'
-    },
+    }
   ],
   bottom: [
-    {
-      text: 'Style guide',
-      url: '/styleguide/'
-    },
-    {
-      text: 'Imprint',
-      url: '/imprint/'
-    },
+    // {
+    //   text: 'Style guide',
+    //   url: '/styleguide/'
+    // },
+    // {
+    //   text: 'Imprint',
+    //   url: '/imprint/'
+    // },
     {
       text: 'Privacy',
       url: '/privacy/'
