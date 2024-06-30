@@ -7,7 +7,13 @@ async function coverImagesTransparency() {
 
   await fs.mkdir(outputDir, {recursive: true});
 
-  const images = ['mountain-mist'];
+  let images = await fs.readdir(inputDir, {withFileTypes: true});
+
+  images = images
+    .filter(item => !item.isDirectory())
+    .map(item => item.name)
+    .filter(f => f.match('.jpg'))
+    .map(f => f.replace('.jpg', ''));
 
   await Promise.all(
     images.map(async image => {
