@@ -3,7 +3,7 @@ import Image from '@11ty/eleventy-img';
 function generateImages(src) {
   let options = {
     widths: [600, 800, 900, 1100, 1500, 2000],
-    formats: ['jpeg'],
+    formats: ['webp'],
     outputDir: './dist/assets/cover-images/',
     urlPath: '/assets/cover-images/',
     useCache: true,
@@ -20,13 +20,13 @@ function generateImages(src) {
 
 export function imageCssBackground(fileName) {
   const selector = '.cover-image';
-  const src = `./src/assets/images/cover-images/${fileName}`;
+  const src = `./src/assets/images/cover-images/output/${fileName}`;
   const metadata = generateImages(src);
 
-  let markup = [`${selector} { background-image: url(${metadata.jpeg[0].url});} `];
-  metadata.jpeg.slice(1).forEach((image, idx) => {
+  let markup = [`${selector} { background-image: url(${metadata.webp[0].url});} `];
+  metadata.webp.slice(1).forEach((image, idx) => {
     markup.push(
-      `@media (min-width: ${metadata.jpeg[idx].width}px) { ${selector} {background-image: url(${image.url});}}`
+      `@media (min-width: ${metadata.webp[idx].width}px) { ${selector} {background-image: url(${image.url});}}`
     );
   });
   return markup.join('');
