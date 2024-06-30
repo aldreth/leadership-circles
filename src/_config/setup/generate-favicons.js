@@ -5,21 +5,24 @@ import {pathToSvgLogo} from '../../_data/meta.js';
 
 async function createFavicons() {
   const outputDir = 'src/assets/images/favicon';
+
   fs.mkdirSync(outputDir, {recursive: true});
 
   // Get the SVG logo
-  const svgBuffer = fs.readFileSync(pathToSvgLogo);
+  // const svgBuffer = fs.readFileSync(pathToSvgLogo);
+  const jpgBuffer = fs.readFileSync(pathToSvgLogo);
+  const pngBuffer = await sharp(jpgBuffer).toFormat('png').toBuffer();
 
   // SVG icon
-  fs.writeFileSync(`${outputDir}/favicon.svg`, svgBuffer);
+  fs.writeFileSync(`${outputDir}/favicon.svg`, pngBuffer);
 
   // PNG icons
-  await sharp(svgBuffer).resize(192, 192).toFile(`${outputDir}/icon-192x192.png`);
-  await sharp(svgBuffer).resize(512, 512).toFile(`${outputDir}/icon-512x512.png`);
-  await sharp(svgBuffer).resize(180, 180).toFile(`${outputDir}/apple-touch-icon.png`);
+  await sharp(pngBuffer).resize(192, 192).toFile(`${outputDir}/icon-192x192.png`);
+  await sharp(pngBuffer).resize(512, 512).toFile(`${outputDir}/icon-512x512.png`);
+  await sharp(pngBuffer).resize(180, 180).toFile(`${outputDir}/apple-touch-icon.png`);
 
   // maskable icon
-  await sharp(svgBuffer)
+  await sharp(pngBuffer)
     .resize(512, 512)
     .extend({
       top: 50,
@@ -31,7 +34,7 @@ async function createFavicons() {
     .toFile(`${outputDir}/maskable-icon.png`);
 
   // ICO icon
-  const iconSharp = sharp(svgBuffer).resize(16, 16);
+  const iconSharp = sharp(pngBuffer).resize(16, 16);
   await sharpsToIco([iconSharp], `${outputDir}/favicon.ico`, {sizes: [16]});
 
   console.log('All favicons generated.');
