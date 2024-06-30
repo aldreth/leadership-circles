@@ -8,20 +8,11 @@ layout: 'home'
 backgroundImage: mountain-mist.webp
 ---
 
-<article class="full  section" >
+## Leadership development
 
-  <section class="feature section__inner wrapper">
-    <h2>Leadership development</h2>
-      <p>
+Given this context, what sort of leadership development is needed?
 
-        Given this context, what sort of leadership development is needed?
-        We would argue there is a need for one that is less about being taught ‘stuff’ and more about learning to tap to your innate knowing as a human being. And one that supports you to understand more about your own experience of the world, and what this is telling you. We believe Leadership Circling is a powerful methodology that can provide this.
-
-      </p>
-
-  </section>
-
-</article>
+We would argue there is a need for one that is less about being taught ‘stuff’ and more about learning to tap to your innate knowing as a human being. And one that supports you to understand more about your own experience of the world, and what this is telling you. We believe Leadership Circling is a powerful methodology that can provide this.
 
 ## Leadership Circles
 
@@ -29,7 +20,6 @@ Circling is a practice of coming together with others, listening deeply and bein
 
 <article class="full  section" style="--spot-color: var(--color-primary-highlight)">
   {% svg "divider/waves", null, "seperator" %}
-
   <section class="feature section__inner wrapper">
     <h2>The woods and the campfire</h2>
       <p>
@@ -37,11 +27,9 @@ Circling is a practice of coming together with others, listening deeply and bein
       </p>
       <p>
         We therefore very intentionally hold our leadership circles outside in woods near York. This both allows us to directly experience our wider context whilst we are learning, and we using the metaphor of the woods, ecosystems and nature to support the leadership development.
-
       </p>
-
   </section>
-
+  {% svg "divider/waves", null, "seperator" %}
 </article>
 
 ## Format of sessions
@@ -50,7 +38,6 @@ The Leadership Circles are designed in a group of 6 sessions, similar to a leade
 
 <article class="full  section" style="--spot-color: var(--color-primary-highlight)">
   {% svg "divider/waves", null, "seperator" %}
-
   <section class="feature section__inner wrapper">
     <h2>Next programme</h2>
       <p>
@@ -63,11 +50,8 @@ The Leadership Circles are designed in a group of 6 sessions, similar to a leade
         <li>21st November</li>
       </ul>
       </p>
-
   </section>
-
 {% svg "divider/waves", null, "seperator" %}
-
 </article>
 
 <button class="button"><a href='/contact'>Find out more</a></button>

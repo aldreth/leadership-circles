@@ -1,19 +1,10 @@
 ---
 title: Contact
 permalink: /contact/index.html
-description: 'Eleventy Excellent is inspired bythe companion website of Andy Bell’s talk "Be the browser’s mentor, not its micromanager".'
+description: 'Get in touch with us'
 layout: page
 ---
 
-Send us a message:
+To book or to find out more about the Leadership programme using Leadership Circles, get in touch by emailing us:
 
-<!-- /TODO: add action="/pages/success" to go to a custom page after message submission -->
-<form name="contact" method="POST" data-netlify="true">
-    <label for="name">Name: </label> 
-    <input type="text" name="name" />
-    <label for="email">Email: </label>
-    <input type="email" name="email" />
-    <label for="message">Message: </label>
-    <textarea name="message"></textarea>
-    <button class="button" type="submit">Send</button>
-</form>
+info@leadershipcircles.co.uk
