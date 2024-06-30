@@ -3,10 +3,10 @@ permalink: /index.html
 title: 'Leadership Circles'
 description: ''
 layout: 'home'
-backgroundImage: mountain-mist.webp
+backgroundImage: mountain-mist
 ---
 
-<article class="full | section cover-image">
+<article class="full | section cover-image cover-image-mountain-mist">
   <div class="section__inner region">
     <h1 class="text-center text-base-light" style="margin-bottom: 3rem;">Today’s Leadership Challenge</h1>
     <p style="margin: 0 auto;">

@@ -19,9 +19,10 @@ function generateImages(src) {
 }
 
 export function imageCssBackground(fileName) {
-  const selector = '.cover-image';
-  const src = `./src/assets/images/cover-images/output/${fileName}`;
+  const src = `./src/assets/images/cover-images/output/${fileName}.webp`;
   const metadata = generateImages(src);
+
+  const selector = `.cover-image-${fileName}`;
 
   let markup = [`${selector} { background-image: url(${metadata.webp[0].url});} `];
   metadata.webp.slice(1).forEach((image, idx) => {
