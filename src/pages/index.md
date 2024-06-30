@@ -3,7 +3,6 @@ permalink: /index.html
 title: 'Leadership Circles'
 description: ''
 layout: 'home'
-backgroundImage: mountain-mist
 ---
 
 <article class="full | section cover-image cover-image-mountain-mist">
