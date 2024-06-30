@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: 'Contact | Leadership Circles'
 permalink: /contact/index.html
 description: 'Get in touch with us'
 layout: page

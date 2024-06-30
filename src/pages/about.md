@@ -1,7 +1,7 @@
 ---
-title: About
+title: 'About | Leadership Circles'
 permalink: /about/index.html
-description: 'Eleventy Excellent is inspired bythe companion website of Andy Bell’s talk "Be the browser’s mentor, not its micromanager".'
+description: 'Leadership Circles is a joint project of Fay Andrews-Hodgson & Marie Dove.'
 layout: page
 ---
 

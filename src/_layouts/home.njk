@@ -8,15 +8,7 @@ layout: base
 <style>{{ css | safe }}</style>
 
 <div class="wrapper">
-  <header class="full | section cover-image">
-    <div class="section__inner flow region">
-      <h1 class="text-center text-base-light" style="margin-bottom: 3rem;">{{ headerTitle }} </h1>
-      <p style="margin: 0 auto;">{{ headerText }}</p>
-    </div>
-  </header>
-
-  <article class="full | region">
+  <article class="full">
     <div class="wrapper flow prose">{{ content | safe }}</div>
   </article>
-
 </div>
