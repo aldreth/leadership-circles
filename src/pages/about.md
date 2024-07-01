@@ -3,6 +3,8 @@ title: 'About'
 permalink: /about/index.html
 description: 'Leadership Circles is a joint project of Fay Andrews-Hodgson & Marie Dove.'
 layout: page
+discover:
+  title: 'About | Leadership Circles'
 ---
 
 <article class="full  section" style="--spot-color: var(--color-primary-highlight)">
