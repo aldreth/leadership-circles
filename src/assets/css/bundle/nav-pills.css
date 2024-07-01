@@ -19,7 +19,7 @@
   --item-border-color: var(--color-bg-accent-2);
   --item-padding: var(--space-s);
   background-color: var(--item-background-color);
-  color: var(--item-text-color);
+  color: var(--color-tertiary);
   padding: var(--item-padding);
   text-decoration: none;
   display: block;
@@ -37,7 +37,8 @@
 /* Change border-color and color for the active page. data-state='active' if a child is active. */
 .mainnav [aria-current='page'],
 .mainnav [data-state='active'] {
-  --item-background-color: var(--color-text);
-  --item-border-color: var(--color-bg);
-  --item-text-color: var(--color-bg);
+  --item-background-color: transparent;
+  --item-border-color: var(--color-tertiary);
+  --item-text-color: var(--color-tertiary);
+  --item-text-decoration: var(--color-tertiary);
 }

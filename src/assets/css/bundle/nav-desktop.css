@@ -23,7 +23,7 @@
     --item-border-color: transparent;
     --item-background-color: transparent;
     --item-text-decoration: transparent;
-    --item-text-color: var(--color-text);
+    --item-text-color: var(--color-tertiary);
     text-decoration-line: underline;
     text-decoration-color: var(--item-text-decoration, transparent);
     text-decoration-thickness: 3px;
@@ -32,8 +32,8 @@
 
   .mainnav a:where(:hover, :focus) {
     --item-background-color: transparent;
-    --item-text-color: var(--color-text);
-    --item-text-decoration: var(--color-text);
+    --item-text-color: var(--color-tertiary);
+    --item-text-decoration: var(--color-tertiary);
   }
 
   /* Change border-color and color for the active page */
@@ -41,7 +41,7 @@
   .mainnav [data-state='active'] {
     --item-border-color: transparent;
     --item-background-color: transparent;
-    --item-text-color: var(--color-primary);
-    --item-text-decoration: var(--color-primary);
+    --item-text-color: var(--color-tertiary);
+    --item-text-decoration: var(--color-tertiary);
   }
 }
