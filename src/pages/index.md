@@ -5,13 +5,13 @@ description: ''
 layout: 'home'
 ---
 
-<article class="full | section cover-image cover-image-mountain-mist">
+<article class="full | wrapper cover-image cover-image-mountain-mist">
   <div class="section__inner region">
-    <h1 class="text-center text-base-light" style="margin-bottom: 3rem;">Today’s Leadership Challenge</h1>
-    <p style="margin: 0 auto;">
+    <h2 style="margin-bottom: 2rem;">Today’s Leadership Challenge</h2>
+    <p>
     The leadership being demanded of today is different than that of the past.  We are needed to work competently with multiple time frames, within the contexts of intersecting global challenges, and rapidly shifting world views and expectations of staff.  More people want their work to provide a sense of purpose and meaning beyond providing for their families; seeking a sense of contribution.  Leadership is being asked to provide ‘transformation’, and quickly.  But this will only be possible through developing different ways of thinking and acting, expanding perceptions and developing new paradigms.
     </p>
-    <p style="margin: 10px auto 0;">
+    <p style="margin-top: var(--space-xs-s);">
     There are no easy answers, but one thing is for sure, it will require deeper capabilities in the art and skills of observation, reflection and learning.
     </p>
   </div>
