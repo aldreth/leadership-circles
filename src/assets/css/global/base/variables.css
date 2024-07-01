@@ -39,6 +39,7 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
   --color-primary: var(--color-primary-highlight);
   --color-secondary: var(--color-secondary-highlight);
   --color-tertiary: var(--color-tertiary-highlight);
+  --color-quad: #9DBA83;
   /* Fallbacks if modern color syntax not supported */
   --color-text-accent: #505050;
   --color-bg-accent: #fdfdfd;
@@ -54,6 +55,7 @@ Adjust fallbacks if modern color syntax not supported for text and bg variants. 
     --color-primary: var(--color-primary-highlight);
     --color-secondary: var(--color-secondary-highlight);
     --color-tertiary: var(--color-tertiary-highlight);
+    --color-quad: #9DBA83;
     /* Fallbacks if modern color syntax not supported */
     --color-text-accent: #a8a8a8;
     --color-bg-accent: #383838;

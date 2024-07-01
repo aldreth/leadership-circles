@@ -29,7 +29,7 @@ The circle symbolises wholeness and continuity, it also represents the cyclical 
 
 Circling is experiential, it is a practice of coming together with others, listening deeply and being heard deeply. The practice invites you to pay attention to your own experience in the moment as well as to each other, supporting each other with your presence. Through this process you will experience a deeper sense of connection to yourself, others and the wider world. It will allow you to see things with a new perspective, gain clarity as well as allow insights to emerge.
 
-<article class="full  section" style="--spot-color: var(--color-primary-highlight)">
+<article class="full  section" style="--spot-color: var(--color-quad)">
   {% svg "divider/waves", null, "seperator" %}
   <section class="feature section__inner wrapper">
     <h2>The woods and the campfire</h2>
@@ -67,19 +67,19 @@ The six sessions run sequentially and allow for a gradual development of element
 
 We start with where you are now, what is it like being a leader as a human being at this point in time. We then explore foundational practices relating to embodied presence followed by how we make sense of your worlds. We look at the impact of separation and connection in the organisational environment and your relationship to complexity, ambiguity and paradox. We end the Circles focusing on the meaning of your work and your version of leadership.
 
-<article class="full  section" style="--spot-color: var(--color-primary-highlight)">
+<article class="full  section" style="--spot-color: var(--color-quad)">
   {% svg "divider/waves", null, "seperator" %}
   <section class="feature section__inner wrapper">
     <h2>Dates of the next Programme </h2>
       <p>
-      <ol>
+      <ul style="list-style: none;">
         <li>5th September - Leader as Human</li>
         <li>18th September - Embodied Presence</li>
         <li>3rd October - Sensemaking</li>
         <li>17th October - Separation and Connection</li>
         <li>7th November - Complexity, Ambiguity and Paradox</li>
         <li>21st November - Your version of leadership</li>
-      </ol>
+      </ul>
       </p>
   </section>
 {% svg "divider/waves", null, "seperator" %}
