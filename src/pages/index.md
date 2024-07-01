@@ -73,6 +73,7 @@ We start with where you are now, what is it like being a leader as a human being
     <h2>Dates of the next Programme </h2>
       <p>
       <ul style="list-style: none;">
+      <!-- TODO: hide bullets -->
         <li>5th September - Leader as Human</li>
         <li>18th September - Embodied Presence</li>
         <li>3rd October - Sensemaking</li>

@@ -2,17 +2,15 @@
 title: 'About'
 permalink: /about/index.html
 description: 'Leadership Circles is a joint project of Fay Andrews-Hodgson & Marie Dove.'
-layout: page
+layout: home
 discover:
   title: 'About | Leadership Circles'
 ---
 
-<article class="full  section" style="--spot-color: var(--color-primary-highlight)">
-  {% svg "divider/waves", null, "seperator" %}
-  <section class="feature section__inner wrapper">
-    <h2>Fay Andrews-Hodgson</h2>
-  </section>
-{% svg "divider/waves", null, "seperator" %}
+<article class="full | wrapper cover-image cover-image-nepal">
+  <div class="section__inner region">
+    <h2 style="margin-bottom: 2rem;">Fay Andrews-Hodgson</h2>
+  </div>
 </article>
 
 Fay has an academic background in Organisational Psychology (MSc) and has spent 17 years practising Organisational Development (OD) within mainly public sector organisations. This has involved supporting individuals, teams and whole organisations in their learning, development and Leadership.  She spent 10 years as an OD practitioner in the NHS and most recently spent 4 years as a Senior OD practitioner in the Home Office, focussing on the leadership development of the top 400 Civil Servants, including board development.
@@ -23,12 +21,10 @@ She has an interest in dynamic systems, our complex world and the interconnectiv
 
 Fay also is the founder of [Insight Space](https://insightspace.co.uk) offering leadership coaching, team coaching and Organisational Development.
 
-<article class="full  section" style="--spot-color: var(--color-primary-highlight)">
-  {% svg "divider/waves", null, "seperator" %}
-  <section class="feature section__inner wrapper">
-    <h2>Marie Dove</h2>
-  </section>
-{% svg "divider/waves", null, "seperator" %}
+<article class="full | wrapper cover-image cover-image-nepal">
+  <div class="section__inner region">
+    <h2 style="margin-bottom: 2rem;">Marie Dove</h2>
+  </div>
 </article>
 
 Marie has loved being in nature and learning from nature from a young age. She was lucky enough to grow up in rural Cumbria, spending her entire childhood exploring and learning from the natural world.
@@ -41,13 +37,11 @@ In this role, Marie very quickly realised that she wanted to combine her love of
 
 [Find out more about Marie and her work](https://mariedove.co.uk)
 
-<article class="full  section" style="--spot-color: var(--color-primary-highlight)">
-  {% svg "divider/waves", null, "seperator" %}
-  <section class="feature section__inner wrapper">
-    <h2>Find out more</h2>
+<article class="full | wrapper cover-image cover-image-nepal">
+  <div class="section__inner region">
+    <h2 style="margin-bottom: 2rem;">Find out more</h2>
       <p>
-        <button class="button"><a href='/contact'>Get in touch</a></button>
+        Please contact us at: <a href="mailto:info@leadershipcircles.co.uk">info@leadershipcircles.co.uk</a>
       </p>
-  </section>
-{% svg "divider/waves", null, "seperator" %}
+  </div>
 </article>
