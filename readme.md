@@ -7,8 +7,9 @@
 [ ] mobile nav & header
 [ ] bullet points for dates
 [x] change green blocks to mountain mist pic on index
-[ ] home on nav menu
+[x] home on nav menu
 [ ] update readme
+[ ] automate coverimage css writing
 
 Easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [buildexcellentwebsit.es](https://buildexcellentwebsit.es/).
 
