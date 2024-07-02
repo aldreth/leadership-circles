@@ -6,7 +6,7 @@
 [ ] logo svg
 [ ] mobile nav & header
 [ ] bullet points for dates
-[ ] change green blocks to mountain mist pic on index
+[x] change green blocks to mountain mist pic on index
 [ ] home on nav menu
 [ ] update readme
 
@@ -17,16 +17,16 @@ Easy to use Eleventy starter, based on the workflow suggested by Andy Bell's [bu
 
 If you end up using this starter, feel free to send me a link, I'd love to see it!
 
-- [Todos:](#todos)
-- [Preview](#preview)
-- [Features](#features)
-- [First steps](#first-steps)
-- [Development](#development)
-  - [Install dependencies](#install-dependencies)
-  - [Working locally](#working-locally)
-  - [Creating a production build](#creating-a-production-build)
-- [Built with Eleventy Excellent](#built-with-eleventy-excellent)
-- [Credits and Thank yous](#credits-and-thank-yous)
+* [Todos:](#todos)
+* [Preview](#preview)
+* [Features](#features)
+* [First steps](#first-steps)
+* [Development](#development)
+  * [Install dependencies](#install-dependencies)
+  * [Working locally](#working-locally)
+  * [Creating a production build](#creating-a-production-build)
+* [Built with Eleventy Excellent](#built-with-eleventy-excellent)
+* [Credits and Thank yous](#credits-and-thank-yous)
 
 ## Preview
 
