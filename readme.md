@@ -5,7 +5,7 @@
 [ ] pictures of Fay & Marie
 [ ] logo svg
 [x] mobile nav & header
-[ ] bullet points for dates
+[x] remove bullet points for dates
 [x] change green blocks to mountain mist pic on index
 [x] home on nav menu
 [ ] update readme
