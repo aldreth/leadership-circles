@@ -33,22 +33,26 @@ to change how empty grid tracks are handled */
   --grid-min-item-size: clamp(16rem, 50vw, 28rem);
 }
 
-:where(.grid)[data-layout='1-2'] {
-  grid-template-columns: 33.334% 66.667%;
-}
-
-:where(.grid)[data-layout='2-1'] {
-  grid-template-columns: 66.667% 33.334%;
-}
-
 :where(.grid)[data-layout='1-2'],
 :where(.grid)[data-layout='2-1'] {
   max-inline-size: 65ch;
+  grid-auto-flow: row;
+  grid-template-columns: auto;
 
   img {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
     margin-block-start: 0;
+  }
+}
+
+@media screen(navigation) {
+  :where(.grid)[data-layout='1-2'] {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  :where(.grid)[data-layout='2-1'] {
+    grid-template-columns: 2fr 1fr;
   }
 }

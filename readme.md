@@ -2,7 +2,9 @@
 
 ## Todos:
 
-[ ] pictures of Fay & Marie
+[x] pictures of Fay & Marie
+[x] pics into column on mobile
+[ ] contain image in grid
 [ ] logo svg
 [x] mobile nav & header
 [x] remove bullet points for dates
