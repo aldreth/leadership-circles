@@ -56,3 +56,37 @@ to change how empty grid tracks are handled */
     grid-template-columns: 2fr 1fr;
   }
 }
+
+:where(.flex) {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter, var(--space-s-m));
+  max-inline-size: 65ch;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    margin-block-start: 0;
+  }
+}
+
+@media screen(navigation) {
+  :where(.flex) {
+    div {
+      flex: 2;
+    }
+
+    picture {
+      flex: 1;
+    }
+  }
+
+  :where(.flex)[data-layout='image-text'] {
+    flex-direction: row-reverse;
+  }
+
+  :where(.flex)[data-layout='text-image'] {
+    flex-direction: row;
+  }
+}
