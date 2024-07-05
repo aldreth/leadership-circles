@@ -1,0 +1,33 @@
+:where(.image-text) {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter, var(--space-s-m));
+  max-inline-size: 65ch;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+    margin-block-start: 0;
+  }
+}
+
+@media screen(navigation) {
+  :where(.image-text) {
+    div {
+      flex: 2;
+    }
+
+    picture {
+      flex: 1;
+    }
+  }
+
+  :where(.image-text)[data-layout='image-text'] {
+    flex-direction: row-reverse;
+  }
+
+  :where(.image-text)[data-layout='text-image'] {
+    flex-direction: row;
+  }
+}
