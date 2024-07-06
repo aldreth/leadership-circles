@@ -3,6 +3,8 @@
 ## Todos:
 
 [x] pictures of Fay & Marie
+[ ] back to top button
+[ ] stuck menu (hide image if on mobile)
 [x] pics into column on mobile
 [x] contain image in grid
 [x] logo svg
