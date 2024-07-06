@@ -17,7 +17,7 @@ export const creator = {
   email: 'info@leadershipcirles.co.uk',
   website: 'https://www.leadershipcircles.co.uk'
 };
-export const pathToSvgLogo = 'src/assets/images/logo.png'; // used for favicon generation
+export const pathToSvgLogo = 'src/assets/images/logo.svg'; // used for favicon generation
 export const themeColor = '#DD4462'; //  Manifest: defines the default theme color for the application
 export const themeBgColor = '#FBFBFB'; // Manifest: defines a placeholder background color for the application page to display before its stylesheet is loaded
 export const opengraph_default = '/assets/images/template/opengraph-default.jpg'; // fallback/default meta image

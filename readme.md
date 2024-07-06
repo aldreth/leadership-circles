@@ -5,7 +5,7 @@
 [x] pictures of Fay & Marie
 [x] pics into column on mobile
 [x] contain image in grid
-[ ] logo svg
+[x] logo svg
 [x] mobile nav & header
 [x] remove bullet points for dates
 [x] change green blocks to mountain mist pic on index
