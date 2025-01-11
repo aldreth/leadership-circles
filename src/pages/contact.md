@@ -9,7 +9,7 @@ discover:
 
 <article class="full | wrapper cover-image cover-image-fire-hills">
   <div class="section__inner region">
-    <h2 style="margin-bottom: 2rem;">Contact</h2>
+    <h1 style="margin-bottom: 2rem;">Contact</h1>
   </div>
 </article>
 

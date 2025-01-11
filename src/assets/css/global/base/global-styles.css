@@ -143,9 +143,15 @@ a:hover {
   background-position: center center;
   background-size: cover;
 
+  h1,
   h2 {
     margin-bottom: var(--space-m);
   }
+
+  h1 {
+    font-size: var(--size-step-1);
+  }
+
   p:not(:first-of-type) {
     margin-top: var(--space-xs-s);
   }

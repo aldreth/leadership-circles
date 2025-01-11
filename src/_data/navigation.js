@@ -5,6 +5,14 @@ export default {
       url: '/'
     },
     {
+      text: 'Programme',
+      url: '/programme'
+    },
+    {
+      text: 'FAQ',
+      url: '/faq'
+    },
+    {
       text: 'About',
       url: '/about/'
     },
