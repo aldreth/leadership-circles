@@ -7,12 +7,12 @@ layout: 'home'
 
 <article class="full | wrapper cover-image cover-image-mountain-mist">
   <div class="section__inner region">
-    <h1>Today’s Leadership Challenge</h1>
     <p>
-      The Leadership Circle Programme is a different form of leadership development; it uses the
+      The <strong>Leadership Circle Programme</strong> is a different form of leadership development; it uses the
       context of the woods, campfire and circle to support leaders connect to what it means to be
       human and a leader at this point in time.
     </p>
+    <h1>Today’s Leadership Challenge</h1>
     <p>
       The leadership being demanded of today is different than that of the past. We are needed to
       work within the contexts of intersecting global challenges, shifting societies, responding at

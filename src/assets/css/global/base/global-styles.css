@@ -143,6 +143,11 @@ a:hover {
   background-position: center center;
   background-size: cover;
 
+  p + h1,
+  p + h2 {
+    margin-top: var(--space-m);
+  }
+
   h1,
   h2 {
     margin-bottom: var(--space-m);
