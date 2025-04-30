@@ -7,11 +7,6 @@ layout: 'home'
 
 <article class="full | wrapper cover-image cover-image-mountain-mist">
   <div class="section__inner region">
-    <p>
-      The <strong>Leadership Circle Programme</strong> is a different form of leadership development; it uses the
-      context of the woods, campfire and circle to support leaders connect to what it means to be
-      human and a leader at this point in time.
-    </p>
     <h1>Today’s Leadership Challenge</h1>
     <p>
       The leadership being demanded of today is different than that of the past. We are needed to
@@ -33,12 +28,6 @@ layout: 'home'
 Given this context, what sort of leadership development is needed?
 
 We would argue that leadership development needs to be more about learning to tap into your innate knowing as a human being. One that supports you to understand more about your own experience of the world, and what this is telling you. We believe Leadership Circling is a powerful methodology that can provide this.
-
-## Leadership Circles
-
-The leadership circle is a key part of this programme. The circle symbolises wholeness and continuity, it also represents the cyclical nature of all things. In a circle there is no hierarchy, all are equal, making it the perfect setting for something very real and important to take place.
-
-Circling is experiential, it is a practice of coming together with others, listening deeply and being heard deeply. The practice invites you to pay attention to your own experience in the moment as well as to each other, supporting each other with your presence. Through this process you will experience a deeper sense of connection to yourself, others and the wider world. It will allow you to see things with a new perspective, gain clarity as well as allow insights to emerge.
 
 <article class="full | wrapper cover-image cover-image-mountain-mist">
   <div class="section__inner region">
@@ -63,9 +52,10 @@ Circling is experiential, it is a practice of coming together with others, liste
       supporting us to tap into our own insights and wisdom.
     </p>
     <p>
-      We therefore very intentionally hold our leadership circles outside in woods near York. This both
-      allows us to directly experience our wider context whilst we are learning, and we also use the
-      metaphor of the woods, ecosystems and nature to support the leadership development.
+      We therefore very intentionally hold our Leadership Circles and Leadership Circle programme outside
+      in woods near York. This both allows us to directly experience our wider context whilst we are
+      learning, and we also use the metaphor of the woods, ecosystems and nature to support the development
+      of leadership practice.
     </p>
   </div>
 </article>

@@ -153,6 +153,11 @@ a:hover {
     margin-bottom: var(--space-m);
   }
 
+  h1:has(+ p > em),
+  h2:has(+ p > em) {
+    margin-bottom: 0;
+  }
+
   h1 {
     font-size: var(--size-step-1);
   }

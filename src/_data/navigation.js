@@ -5,12 +5,12 @@ export default {
       url: '/'
     },
     {
-      text: 'Programme',
-      url: '/programme'
+      text: 'Circles',
+      url: '/circles'
     },
     {
-      text: 'FAQ',
-      url: '/faq'
+      text: 'Programme',
+      url: '/programme'
     },
     {
       text: 'About',

@@ -15,4 +15,4 @@ discover:
 
 To book or to find out more about the Leadership programme using Leadership Circles, get in touch at:
 
-info@leadershipcircles.co.uk
+<a href="mailto:info@leadershipcircles.co.uk">info@leadershipcircles.co.uk</a>
