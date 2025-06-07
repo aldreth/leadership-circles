@@ -12,9 +12,6 @@ layout: 'home'
       <em>Transform your leadership practice through having a regular reflective space.</em>
     </p>
     <p>
-      Leadership circles take place on the <strong>second Friday of every month 9.30 – 12.30</strong>.
-    </p>
-    <p>
       Leadership Circles take place monthly allowing leaders to have a regular opportunity to
       process their experiences of the last month and reflect on their leadership practice.
       Circles are a unique and deeply experiential approach, creating spacious communication,
@@ -33,6 +30,19 @@ layout: 'home'
       process you will experience a deeper sense of connection to yourself, others and the wider
       world. It will allow you to see things with a new perspective, gain clarity as well as allow
       insights to emerge; it creates a pathway to transformational authentic leadership.
+    </p>
+    <p>
+      <strong>Leadership circles take place monthly on Fridays in woods near Stamford Bridge, York</strong>.
+    </p>
+    <p><strong>Summer Dates</strong></p>
+    <p>
+      <ul>
+        <li>July 4th - 1:30 - 4:30</li>
+        <li>August 8th - 9:30 - 12:30</li>
+      </ul>
+    </p>
+    <p>
+      For more information and to book a place email: <strong><a href="mailto:info@leadershipcircles.co.uk">info@leadershipcircles.co.uk</a></strong>.
     </p>
   </div>
 </article>
